@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'popins', sans-serif;  
+
+}
+body{
+    background-color:#222;
+    
+}
+.card{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    background-image:url("weatherbg.jpg");
+    padding:10px;  
+    width:300px; 
+    text-align:center;
+    border-radius:10px
+}
+.searchshit{
+    display:flex;
+    gap:8px;
+}
+.input{
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    height:30px;
+    width:200px;
+}
+.searchimg{
+    background-color:white;
+    padding:5px;
+    margin-top:5px;
+    height:30px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    cursor:pointer;
+}
+.weatherimgdiv{
+    height:200px;
+}
+.weatherimg{
+    /* margin-top:50px; */
+    height:200px;
+    /* margin:auto; */
+}
+.invert{
+    filter:invert(1);
+}
+.humidity{
+    display:flex;
+    align-items:center;
+    color:white;
+    font-size:12px;
+}
+.wind{
+    display:flex;
+    align-items:center;
+    color:white;
+}
+.hum-wind{
+    margin:10px;
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+}
+.wind-info{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    font-size:12px;
+}
+/* .weatherimgdiv{
+    display:none;
+} */
+/* .temperature{
+    display:none;
+}
+.city{
+    display:none;
+}
+.hum-wind{
+    display:none;
+} */
+ .mainshit{
+    display:none;
+ }
+.error{
+    color:white;
+    text-align:left;
+    margin:10px;
+    margin-left:-150px;
+    display:none;
+}
